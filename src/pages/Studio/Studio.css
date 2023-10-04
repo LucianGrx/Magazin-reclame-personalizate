@@ -1,0 +1,55 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.configurator {
+    margin-top: 50px;
+    text-align: center;
+    width: 50%;
+}
+
+.configurator__section__title{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+    
+}
+
+.configurator__section__values{
+
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.item {
+    transition: 0.4s all opacity;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.item:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.item.item--active .item__label {
+    color: purple;
+}
+
+.item__dot {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    border: solid 2px black;
+}
+
+.item.item--active .item__dot {
+    border: solid 2px purple;
+}
