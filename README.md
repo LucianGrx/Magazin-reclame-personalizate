@@ -2,7 +2,7 @@
 
 **Preview Demo**
 
-https://imgur.com/a/Jrj4hVa
+https://magazin-reclame-personalizate.vercel.app/
 
 **Installation:**
 
